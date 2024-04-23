@@ -35,3 +35,5 @@ $ mvn archetype:generate -DinteractiveMode=false \
                          -Dversion='01' \
                          -Dpackage=com.example
 ```
+
+# rumytest
