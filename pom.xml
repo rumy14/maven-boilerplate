@@ -18,6 +18,13 @@
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
+      <!-- Selenium WebDriver -->
+      <dependency>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>4.1.1</version>
+      </dependency>
+
     <dependency>
       <groupId>org.slf4j</groupId>
       <artifactId>slf4j-api</artifactId>
@@ -29,10 +36,17 @@
       <version>1.7.12</version>
       <scope>runtime</scope>
     </dependency>
+    <!-- Selenium WebDriver -->
+   <dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>3.141.0</version>
+	</dependency>
+
   </dependencies>
   <build>
     <plugins>
-      <plugin> 
+      <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-compiler-plugin</artifactId>
         <version>3.2</version>
